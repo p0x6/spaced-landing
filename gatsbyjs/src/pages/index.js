@@ -144,11 +144,7 @@ const IndexPage = () => {
           <ParticleContainer>
             <ParticlesComponent />
           </ParticleContainer>
-          <LogoImageContainer>
-            <Link>
-              <img src={LogoImage} alt="logo" />
-            </Link>
-          </LogoImageContainer>
+          <LogoImageContainer>{/*S p a c e d*/}</LogoImageContainer>
           <Container className="mainContainer">
             <MainContentSection>
               {/*<NormalClockWrapper>*/}

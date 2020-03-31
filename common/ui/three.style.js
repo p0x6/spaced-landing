@@ -6,6 +6,7 @@ export const LogoImageContainer = styled.div`
   @media (max-width: 1600px) {
     padding-top: 30px;
   }
+  font-size: 24px;
   img {
     margin: 0;
   }
