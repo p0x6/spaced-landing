@@ -1,0 +1,22 @@
+{
+	"headerText": "Change Language",
+	"welcome": "Welcome",
+	"title": "Spaced",
+	"logo": "Logo",
+	"ticker": "Our website in under construction",
+	"mainMessage": "Spaced is launching soon please sign up to be notified",
+	"description": "Spaced is an app that assists in social distancing by being able to see hotspots in the city and to see how many people are where you want to go",
+	"buttonText": "NOTIFY ME",
+	"placeholder": "Enter email address",
+	"not_found": "404 - Page Not Found",
+	"copyrightText": "Copyright 2020 by Yang LLC. All rights reserved",
+	"languageText": "Language ",
+	"languageName": "English",
+	"successMsg": "Thank you for the submission",
+	"errorMsg": "Oops!!Something went wrong.",
+	"days": "days",
+	"hours": "hours",
+	"minutes": "minutes",
+	"seconds": "seconds",
+	"demoTxt": "DEMOS"
+}
