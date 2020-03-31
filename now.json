@@ -1,14 +1,16 @@
 {
   "version": 2,
   "name": "ls",
+  "build": {
+    "env": {
+      "SENDGRID_API_KEY": "@sendgrid_api_key"
+    }
+  },
   "builds": [
     {
       "src": "/gatsbyjs/package.json",
       "use": "@now/static-build",
       "config": { "distDir": "public" },
-      "env": {
-        "VARIABLE_NAME": "sendgrid_api_key"
-      }
     }
   ],
   "routes": [
