@@ -6,13 +6,6 @@
       "SENDGRID_API_KEY": "@sendgrid_api_key"
     }
   },
-  "builds": [
-    {
-      "src": "/gatsbyjs/package.json",
-      "use": "@now/static-build",
-      "config": { "distDir": "public" },
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
