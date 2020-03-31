@@ -31,7 +31,11 @@ import Particle7 from '@deadline/common/static/images/eleven/7.png';
 import Particle8 from '@deadline/common/static/images/eleven/8.png';
 import Particle9 from '@deadline/common/static/images/eleven/9.png';
 import Particle10 from '@deadline/common/static/images/eleven/10.png';
-import { ContactFormWrap, ContentWrapper, NotifyButton } from '@deadline/common/ui/eleven.style';
+import {
+  ContactFormWrap,
+  ContentWrapper,
+  NotifyButton,
+} from '@deadline/common/ui/eleven.style';
 import Button from '@deadline/components/Button';
 // Language translation Config
 const messages = {
@@ -141,7 +145,7 @@ const IndexPage = () => {
             <ParticlesComponent />
           </ParticleContainer>
           <LogoImageContainer>
-            <Link to={'/three'}>
+            <Link>
               <img src={LogoImage} alt="logo" />
             </Link>
           </LogoImageContainer>
@@ -170,7 +174,7 @@ const IndexPage = () => {
         <LanguageSwitcher languageConfig={languageConfig} />
       </React.Fragment>
     </LanguageProvider>
-  )
+  );
 };
 
 export default IndexPage;

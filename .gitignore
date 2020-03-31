@@ -71,3 +71,4 @@ yarn-error.log
 .yarn-integrity
 .next
 out
+.now

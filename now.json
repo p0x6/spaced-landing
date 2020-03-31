@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "name": "deadline",
+  "name": "ls",
   "builds": [
     {
       "src": "/gatsbyjs/package.json",
       "use": "@now/static-build",
-      "config": { "distDir": "public" }
+      "config": { "distDir": "public" },
+      "env": {
+        "VARIABLE_NAME": "sendgrid_api_key"
+      }
     }
   ],
   "routes": [
