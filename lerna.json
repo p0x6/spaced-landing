@@ -1,6 +1,6 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "packages": ["components", "common", "gatsbyjs", "nextjs", "docz"],
+  "packages": ["components", "common", "gatsbyjs", "docz"],
   "version": "independent"
 }
